@@ -26,5 +26,10 @@ logging:
     org.springframework.web: DEBUG
     com.prorent: DEBUG
     org.hibernate: ERROR
-    
+
+
+prorent:
+  app:
+    jwtSecret: prorent
+    jwtExpirationMs: 86400000
       

@@ -23,7 +23,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "tbl_user")
+@Table(name = "tbl_message")
 
 public class Message implements Serializable {
 
